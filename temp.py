@@ -1,6 +1,4 @@
-def extendList(val, list=None):
-    if list is None:
-        list = []
+def extendList(val, list=[]):
     list.append(val)
     return list
 
